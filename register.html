@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Site</title>
+    
+</head>
+ 
+<style>
+     
+    body {
+        font-family:  'Courier New', Courier, monospace;
+        color:red;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('bluewall.webp ') ;
+        background-size: cover;
+       
+        
+    }
+
+    .left {
+        display: inline-block;
+        
+        position: absolute;
+        left: 60px;
+        top: 32px;
+    }
+    /* .hello 
+    {
+        background-image: url('bluewall.webp ') ;
+        background-size: cover;
+     }*/ 
+/* .below 
+{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('bluecircle.webp');
+    background-size: auto;
+    padding: 200px;
+} */
+ 
+     
+    
+
+    .left div {
+        line-height: 19px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+
+   
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 21px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family:  'Courier New', Courier, monospace;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+         /* border: 2px solid white;  */
+        margin: 209px 20px;
+        /* width: 300px; */
+        padding: 75px;
+        width: 30%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 12px;
+        border: 2px solid black;
+        margin: 9px auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+    }
+    .flexxx
+{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.flexxx:hover img{
+    color: lawngreen;
+}
+.flexxx img
+{
+    height:400px;
+    /* justify-content: end;  */
+}
+.mobile,.banner
+{
+    text-align: center;
+    box-shadow: 0px 0px 10px 3px ;
+margin: 2px;
+padding: 5px;
+}
+.mobile:hover h1
+{
+  color:aqua;
+}
+.mobile:hover p{
+    color:aqua;
+}
+.banner :hover h1
+{
+    color:aqua;
+}
+.banner :hover p
+{
+    color:aqua;
+}
+.banner img{
+    height: 300px;
+    width: 300px;
+}
+</style>
+
+<body>
+    <div class="hello">
+       
+
+    <header class="header">
+         
+        <div class="left">
+            
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">About Us</a></li>
+                <li><a href="#"class="active">Contact Us</a></li>
+            </ul>
+        </div>
+         
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Register Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder=" Name ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="  Age ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="  Gender ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="  Locality ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="  Email Id ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="  Phone Number ">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</div>
